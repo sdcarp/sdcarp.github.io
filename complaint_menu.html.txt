@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投诉</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+        }
+        .complaint-option {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #000;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>投诉</h2>
+    </div>
+    <p>请选择投诉该账号的原因：</p>
+    <a href="complaint_form.html" class="complaint-option">金融诈骗（贷款/提额/代开/套现等）</a>
+    <a href="complaint_form.html" class="complaint-option">网络兼职刷单诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">返利诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">网络交友诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">虚假投资理财诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">赌博诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">收款不发货</a>
+    <a href="complaint_form.html" class="complaint-option">仿冒他人诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">免费送诈骗</a>
+    <a href="complaint_form.html" class="complaint-option">游戏相关诈骗（代练/充值等）</a>
+    <a href="complaint_form.html" class="complaint-option">其他诈骗行为</a>
+</body>
+</html>
